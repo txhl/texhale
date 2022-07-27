@@ -1,13 +1,96 @@
 .container {
   display: flex;
   margin: auto;
+  flex-direction: column;
 }
 
 .title {
-  margin: 1rem auto;
+  margin: 2rem;
   text-transform: uppercase;
-  font-size: 4rem;
-  letter-spacing: 7rem;
-  padding-inline-start: 7rem; /* center w/ letter-spacing */
-  justify-content: center;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  color: #DAD7CD;
+}
+
+.header {
+  display: flex;
+  justify-content: ;
+  margin: 5rem;
+  justify-items: ;
+  justify-content: space-between;
+}
+
+.navbar {
+  margin: auto 0;
+  justify-content: space-around;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.navItem {
+  display: block;
+  margin: 0.5rem;
+}
+
+.navItem {
+  display: flex;
+  margin: 1.5rem;
+  text-decoration: none;
+  color: #DAD7CD;
+  ;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.taglineBox {
+  margin: auto;
+  background-color: #547454;
+  width: 55%;
+  height: 20rem;
+  padding: 0 2rem;
+}
+
+.taglineBox2 {
+  margin: auto;
+  width: 54%;
+  position: relative;
+  left: 9rem;
+  bottom: 15rem;
+  background: url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1613&q=80);
+  background-position-x: 0%;
+  background-attachment: scroll;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: 5rem;
+  object-fit: cover;
+  height: 28rem;
+  padding: 0 2rem;
+}
+
+.tagline {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.tagline2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.mainCTA {
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 0;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
