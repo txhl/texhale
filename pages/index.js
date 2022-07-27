@@ -19,7 +19,7 @@ export default function Home() {
 
     <div className={styles.content}>
       <div className={styles.taglineBox}>
-        <h2 className={styles.tagline}>Let's Build Something</h2>
+        <h2 className={styles.tagline}>Lets Build Something</h2>
       </div>
       <div className={styles.taglineBox2}>
         <h2 className={styles.tagline2}>To Be Proud Of</h2>
